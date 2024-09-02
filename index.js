@@ -26,7 +26,7 @@ const addNewGoal = () => {
             } 
         }
         if (exists){
-            alert("⚠️Goal already exists!⚠️");
+            alert("Goal already exists!");
         } else {
             const newGoal = document.createElement('li');
             newGoal.textContent = goalInput;
